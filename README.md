@@ -13,13 +13,13 @@ make start
 - to stop run:
 
 ```sh
-make stop
+sudo make stop
 ```
 
 - to restart you can simply run:
 
 ```sh
-make re
+sudo make re
 ```
 
 NOTE: check how many containers are running with:
@@ -37,7 +37,7 @@ sudo service docker stop || sudo systemctl stop docker
 
 after that run the stop script
 ```sh
-sh ./stop.sh
+sudo sh ./stop.sh
 ```
 
 and start docker again with:
