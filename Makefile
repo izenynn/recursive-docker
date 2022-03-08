@@ -1,6 +1,6 @@
 #################### RULES ####################
 
-all: stop start
+all: start
 
 start:
 	@sh ./start.sh
